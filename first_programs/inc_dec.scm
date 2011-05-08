@@ -1,8 +1,7 @@
 (use-modules (gnome-2)
              (oop goops)
              (gnome gobject)
-             (gnome gtk)
-             (gnome gtksourceview))
+             (gnome gtk))
 
 (define (inc-dec)
   (let ((window (make <gtk-window> #:type 'toplevel))

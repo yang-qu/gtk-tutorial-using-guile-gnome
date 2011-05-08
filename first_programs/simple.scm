@@ -7,7 +7,7 @@
              (gnome gtksourceview))
 
 (define (simple-window)
-  (let* ((window (make <gtk-window> #:type 'toplevel)))
+  (let ((window (make <gtk-window> #:type 'toplevel)))
     (show-all window)))
 
 (simple-window)

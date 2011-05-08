@@ -4,7 +4,7 @@
              (gnome gtk)
              (gnome gtksourceview))
 
-(define (centering-window)
+(define (inc-dec)
   (let ((window (make <gtk-window> #:type 'toplevel))
          (frame (make <gtk-fixed>))
          (plus (make <gtk-button> #:label "+"))
@@ -36,5 +36,5 @@
     
     (show-all window)))
 
-(centering-window)
+(inc-dec)
 (gtk-main)
